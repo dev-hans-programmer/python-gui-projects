@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+# from tkinter import ttk
 import ttkbootstrap as ttk
 
 
@@ -9,7 +9,7 @@ def convert():
     output_string.set(kms)
 
 
-window = tk.Tk()
+window = ttk.Window(themename="journal")
 window.title("Demo App")
 window.geometry('300x150')
 
